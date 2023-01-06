@@ -3,7 +3,8 @@
     internal class Program
     {
         static void Main(string[] args)
-        {
+        {   //Eyni zamanda musbet ve tek olan 
+            
             Console.Write("Massivin uzunlugunu daxil et: ");
             int n = int.Parse(Console.ReadLine());
             int[] arr = new int[n];
